@@ -1,13 +1,13 @@
 const fs = require('fs')
 const {orderBy} = require('natural-orderby')
 
-let generatePeriod = (value) => {
+const generatePeriod = (value) => {
     let h = new Date(Date.parse(value['timestamp']));
     value['period'] = parseFloat(h.getFullYear() + "" + h.getMonth() + "" + h.getDate() + "" + h.getHours())
     return value
 }
 
-let removeDuplicate = (clicks, field) => {
+const removeDuplicate = (clicks, field) => {
     let check = new Set();
     return clicks.filter(element => !check.has(element[field]) && check.add(element[field]));
 }

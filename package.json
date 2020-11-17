@@ -8,7 +8,7 @@
     "solution": "node filterclicks.js"
   },
   "keywords": [],
-  "author": "Eduard Garcia Castello @eddygarcas",
+  "author": "Eduard Garcia cdCastello @eddygarcas",
   "license": "MIT",
   "dependencies": {
     "json-groupby": "^1.1.0",
