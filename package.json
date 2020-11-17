@@ -1,0 +1,21 @@
+{
+  "name": "filtering",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "solution": "node filterclicks.js"
+  },
+  "keywords": [],
+  "author": "Eduard Garcia Castello @eddygarcas",
+  "license": "MIT",
+  "dependencies": {
+    "json-groupby": "^1.1.0",
+    "natural-orderby": "^2.0.3",
+    "node": "^15.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.0"
+  }
+}
